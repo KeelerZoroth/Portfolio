@@ -1,0 +1,104 @@
+body {
+    background-image: url(./images/backgroundPattern.png);
+}
+
+
+.imageAboutPage {
+    width: 100%;
+}
+
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.navbarScroll.navbarDark {
+    background-color: rgb(0, 20, 75);
+    opacity: 0.9;
+}
+
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+
+#footer a {
+    font-size: 1.5em;
+    color: rgb(20, 20, 150);
+}
+
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+
+
+
+
+
+.nav-link, .navbar-brand {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-img-top {
+    border: 3px solid black;
+}
+
+.card {
+    border: 1px solid rgb(100, 150, 200);
+}
+
+
+
+
+#about {
+    background-color: rgb(175, 175, 175);
+}
+
+#portfolio {
+    background-color: rgb(200, 220, 220);
+}
+
+#contact {
+    background-color: rgb(175, 175, 200);
+}
