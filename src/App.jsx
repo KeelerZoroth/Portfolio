@@ -1,14 +1,22 @@
 import { Outlet } from 'react-router-dom';
 import Header from "./components/Header.jsx"
+import Footer from './components/Footer.jsx';
 
 function App() {
+
+  const styles = {
+    main: {
+      margin: "20px 0px 10px 0px",
+    },
+  };
 
   return (
     <>
       <Header/>
-      <main>
+      <main style={styles.main}>
         <Outlet />
       </main>
+      <Footer/>
     </>
   )
 }

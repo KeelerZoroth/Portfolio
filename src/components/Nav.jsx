@@ -16,8 +16,6 @@ function Nav() {
             justifyContent: "Center",
         },
         li:{
-            width: "100%",
-            maxWidth: "100px",
             margin: "5px",
             padding: "3px",
             border: "solid rgba(100, 100, 255, 0.5) 1px",
@@ -26,6 +24,8 @@ function Nav() {
             justifyContent: "center",
         },
         Link:{
+            width: "100%",
+            maxWidth: "100px",
             textDecoration: "none",
             color: "white",
             textAlign: "center",
@@ -54,12 +54,13 @@ function Nav() {
     return (
         <nav style={styles.nav}>
             <ul style={styles.ul}>
-
                 {linkContext.map((context, index) => {
                     return (
-                        <li style={styles.li} key={index}>
-                            <Link to={context.url} style={styles.Link}>{context.text}</Link>
-                        </li>
+                        <Link to={context.url} style={styles.Link} key={index}>
+                            <li style={styles.li}>
+                                {context.text}
+                            </li>
+                        </Link>
                     )
                 })}
             </ul>
