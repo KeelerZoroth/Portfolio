@@ -16,7 +16,7 @@
 ## Usage
   Here is the deployed site: https://guileless-selkie-12213b.netlify.app/  
 
-  ![Screenshot](./MDImages/Screenshot%202024-11-04%20162937.png)
+  ![Screenshot](./public/Screenshot%202024-11-04%20162937.png)
 ## License
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
