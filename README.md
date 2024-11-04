@@ -1,8 +1,29 @@
-# React + Vite
+# Portfolio
+## Description
+  This is my portfolio using Vite and React
+## Table of Contents
+  [Description](#description)  
+  [Installation](#installation)  
+  [Usage](#usage)  
+  [License](#license)  
+  [Contributing](#contributing)  
+  [Tests](#tests)  
+  [Questions](#questions)  
+## Installation
+  Prerequisites: Node.js, npm  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  Install npm packages: ```npm i```
+## Usage
+  Here is the deployed site: https://guileless-selkie-12213b.netlify.app/  
+## License
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  
+## Contributing
+  1. Fork the repository.  
+  2. Create a new branch: ``` git checkout -b feature/branch-name ```  
+  3. Make your changes.  
+  4. Submit a pull request.
+## Questions
+  For any questions, contact here:  
+  Isaiah Hansen: isaiah1hansen@gmail.com  
+  GitHub: [KeelerZoroth](https://github.com/KeelerZoroth)  
