@@ -6,7 +6,7 @@ function App() {
 
   const styles = {
     main: {
-      margin: "20px 0px 10px 0px",
+      margin: "20px 10px 90px 10px",
     },
   };
 
