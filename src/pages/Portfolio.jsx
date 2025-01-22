@@ -1,7 +1,7 @@
 import ProjectCard from "../components/ProjectCard";
+import GroupCalenderImage from "../assets/images/GroupCalenderImage.png"
 import PartyPlannerImage from "../assets/images/Party-Planner-Landing-Page.png";
 import READMEGeneratorImage from "../assets/images/Screenshot 2024-11-04 155047.png";
-import EmployeeManagerImage from "../assets/images/Screenshot 2024-11-04 155811.png";
 
 function Portfolio() {
 
@@ -26,6 +26,11 @@ function Portfolio() {
 
     const projectLists = [
         {
+            title: "Group Calender",
+            image: GroupCalenderImage,
+            url: "https://github.com/KeelerZoroth/Group-Calendar",
+        },
+        {
             title: "Party Planner",
             image: PartyPlannerImage,
             url: "https://angiethelibrarian.github.io/Party-Planner-Project1/",
@@ -35,11 +40,6 @@ function Portfolio() {
             image: READMEGeneratorImage,
             url: "https://github.com/KeelerZoroth/README-Generator/",
         },
-        {
-            title: "Employee Manager",
-            image: EmployeeManagerImage,
-            url: "https://github.com/KeelerZoroth/Employee-Manager/",
-        }
     ]
 
 
