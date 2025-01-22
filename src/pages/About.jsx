@@ -5,6 +5,8 @@ function About() {
 
     const styles = {
         mainDiv:{
+            position: "relative",
+            margin: "0px",
             padding: "1px 8px",
             textAlign: "center",
             backgroundColor: "rgb(241 241 241)",
@@ -31,7 +33,7 @@ function About() {
             fontFamily: 'sans-serif',
         },
         img:{
-            width: "100%",
+            width: "90%",
             display: "inline",
         },
         imgDiv:{
