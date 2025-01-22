@@ -24,7 +24,7 @@ function Resume() {
     return (
         <div style={styles.mainDiv}>    
             <div style={styles.downloadLinkDiv}>
-                <a style={styles.downloadLink} href="/Resume.docx" download>Download Resume</a>
+                <a style={styles.downloadLink} href="/Public Resume.docx" download>Download Resume</a>
             </div>
             <h1>Isaiah Hansen</h1>
             <div>
