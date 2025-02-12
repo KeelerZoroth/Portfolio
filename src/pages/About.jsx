@@ -61,7 +61,7 @@ function About() {
                             <h2 style={styles.hText}>Name: Isaiah Hansen</h2>
                             <h3 style={styles.hText}>Age: {(currentDateObj.getFullYear() - 2006) + Math.ceil((currentDateObj.getMonth() / 12) - (2 / 12))}</h3>
                         </div>
-                        <p style={styles.p}>I have been intrested in programing since about 12 years old. I am a mostly a self-taught up untill 19 years old when I atended the SMU programming bootcamp.</p>
+                        <p style={styles.p}>I have been intrested in programing since about 12 years old. I am mostly self-taught up untill 19 years old when I atended the SMU programming bootcamp.</p>
                     </div>
                 </div>
             </div>
