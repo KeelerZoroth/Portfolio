@@ -2,6 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 import GroupCalenderImage from "../assets/images/GroupCalenderImage.png"
 import PartyPlannerImage from "../assets/images/Party-Planner-Landing-Page.png";
 import READMEGeneratorImage from "../assets/images/Screenshot 2024-11-04 155047.png";
+import SnippetImage from "../assets/images/Screenshot 2025-02-23 204013.png"
 
 function Portfolio() {
 
@@ -12,11 +13,10 @@ function Portfolio() {
         },
         flexDiv:{
             margin: "5px 0px",
-            display: "flex",
-            flexWrap: "wrap",
+            display: "grid",
             gap: "10px",
-            justifyContent: "center",
-            alignItems: "center",
+            justifyContent: "space-evenly",
+            gridTemplateColumns: "repeat(auto-fill, 306px)"
         },
         hText:{
             fontFamily: 'sans-serif',
@@ -25,6 +25,11 @@ function Portfolio() {
     }
 
     const projectLists = [
+        {
+            title: "Snippet",
+            image: SnippetImage,
+            url: "https://github.com/KeelerZoroth/Snippet",
+        },
         {
             title: "Group Calender",
             image: GroupCalenderImage,
