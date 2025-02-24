@@ -1,11 +1,20 @@
 
+// eslint-disable-next-line react/prop-types
 function ProjectCard({title, image, url}) {
 
     const styles = {
+        // containerDiv: {
+        //     margin: "0px auto",
+        //     display: "flex",
+        //     justifyContent: "center",
+        //     // flexShrink: "0",
+        //     flexBias: "1"
+
+        // },
         mainDiv:{
             color: "color: rgb(33 37 41)",
             border: "solid rgb(50, 50, 200) 3px",
-            margin: "5px",
+            // margin: "5px",
             backgroundColor: "rgb(100, 100, 100)",
             textAlign: "center",
             display: "inline-block",
@@ -27,6 +36,8 @@ function ProjectCard({title, image, url}) {
         a:{
             color: "inherit",
             textDecoration: "inherit",
+            width: "100%",
+            height: "100%"
         },
         h1:{
             fontFamily: 'sans-serif',
@@ -40,16 +51,16 @@ function ProjectCard({title, image, url}) {
     }
 
     return (
-        <a style={styles.a} href={url} target="_blank">
-            <div style={styles.mainDiv}>
+        <div style={styles.mainDiv}>
+            <a style={styles.a} href={url} target="_blank">
                 <div style={styles.imgDiv}>
                     <img src={image} style={styles.img} alt="Project thumbnail" />
                 </div>
                 <div style={styles.subDiv}>
                     <h1 style={styles.h1}>{title}</h1>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
     )
 }
 
