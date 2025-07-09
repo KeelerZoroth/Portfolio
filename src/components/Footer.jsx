@@ -7,7 +7,8 @@ function Footer() {
             position: "absolute",
             bottom: "0",
             width: "100%",
-            backgroundColor: "rgb(128, 128, 128)",
+            // backgroundColor: "rgb(128, 128, 128)",
+            background: "linear-gradient(rgb(128, 128, 128) 0%, rgb(78, 78, 78) 100%)",
             padding: "10px 0px",
             margin: "15px 0px 0px 0px",
             textAlign: "center"

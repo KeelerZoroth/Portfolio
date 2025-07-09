@@ -1,5 +1,5 @@
 import aboutMeImage from "../assets/images/about.jpeg";
-
+import aboutBackgroundImage from "../assets/images/About_background.jpg"
 
 function About() {
 
@@ -9,7 +9,8 @@ function About() {
             margin: "0px",
             padding: "1px 8px",
             textAlign: "center",
-            backgroundColor: "rgb(241 241 241)",
+            background: `linear-gradient(rgba(241, 241, 241, 0) 0%, rgba(241, 241, 241, 1) 100%), url(${aboutBackgroundImage}) center`,
+            
         },
         subDiv:{
             display: "inline-block",
