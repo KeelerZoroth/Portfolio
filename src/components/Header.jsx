@@ -12,8 +12,9 @@ function Header() {
         h1:{
             color: "white",
             margin: "0px 10px",
-            fontWeight: "700",
-            fontStyle: "normal"
+            fontWeight: "100",
+            fontStyle: "normal",
+            fontFamily: "Georgia, 'Times New Roman', Times, serif",
         }
     }
 
