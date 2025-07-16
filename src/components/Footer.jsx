@@ -30,7 +30,7 @@ function Footer() {
     },
     {
       name: "fab fa-linkedin",
-      link: "www.linkedin.com/in/isaiah-hansen-a23936311"
+      link: "https://www.linkedin.com/in/isaiah-hansen-a23936311"
     },
   ]
 
