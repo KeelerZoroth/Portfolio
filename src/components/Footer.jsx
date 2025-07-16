@@ -26,11 +26,11 @@ function Footer() {
     const icons = [
     {
       name: "fab fa-github",
-      link: "https://github.com/"
+      link: "https://github.com/KeelerZoroth"
     },
     {
       name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/"
+      link: "www.linkedin.com/in/isaiah-hansen-a23936311"
     },
   ]
 
