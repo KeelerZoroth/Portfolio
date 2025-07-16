@@ -14,8 +14,7 @@ function ProjectCard({title, image, url}) {
         mainDiv:{
             color: "color: rgb(33 37 41)",
             border: "solid rgb(50, 50, 200) 3px",
-            // margin: "5px",
-            backgroundColor: "rgb(100, 100, 100)",
+            backgroundColor: "rgb(160, 160, 160)",
             textAlign: "center",
             display: "inline-block",
             width: "300px",
@@ -41,7 +40,7 @@ function ProjectCard({title, image, url}) {
         },
         h1:{
             fontFamily: 'sans-serif',
-            color: "color: rgb(33 37 41)",
+            color: "rgb(33 37 41)",
             width: "100%",
         },
         img:{

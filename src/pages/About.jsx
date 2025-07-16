@@ -62,7 +62,7 @@ function About() {
                     <div style={styles.flexDiv2}>
                         <div style={styles.subDiv}>
                             <h2 style={styles.hText}>Name: Isaiah Hansen</h2>
-                            <h3 style={styles.hText}>Age: {(currentDateObj.getFullYear() - 2006) + Math.ceil((currentDateObj.getMonth() / 12) - (2 / 12))}</h3>
+                            <h3 style={styles.hText}>Age: {(currentDateObj.getFullYear() - 2006) + Math.ceil((currentDateObj.getMonth() / 12) - (1 / 12))}</h3>
                         </div>
                         <p style={styles.p}>
                             I Have been interested in programing since about 12 years old. Mostly self-taught up until 19 years old when I attended the SMU programming bootcamp. 

@@ -12,7 +12,7 @@ function Portfolio() {
     const styles = {
         mainDiv:{
             minHeight: "75vh",
-            padding: "1px 8px",
+            padding: "2px 8px",
             backgroundColor: "rgb(130 183 220)",
             background: `linear-gradient(rgba(130, 183, 220, 0.65), rgb(130, 183, 220, 0.65)), url(${portfolioBackgroundImage})`,
         },
@@ -33,17 +33,17 @@ function Portfolio() {
         {
             title: "Tic-Tac-Toe",
             image: TicTacToeImage,
-            url: "https://github.com/KeelerZoroth/Tic-Tac-Toe-Site",
+            url: "https://tic-tac-toe-site-sx1e.vercel.app/",
         },
         {
             title: "Snippet",
             image: SnippetImage,
-            url: "https://github.com/KeelerZoroth/Snippet",
+            url: "https://snippet-vzjo.onrender.com/",
         },
         {
             title: "Group Calender",
             image: GroupCalenderImage,
-            url: "https://github.com/KeelerZoroth/Group-Calendar",
+            url: "https://group-calendar-a5hu.onrender.com/",
         },
         {
             title: "Party Planner",
