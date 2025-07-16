@@ -29,6 +29,7 @@ function Nav() {
             textDecoration: "none",
             color: "white",
             textAlign: "center",
+            position: "relative"
         }
     }
 
@@ -57,6 +58,13 @@ function Nav() {
                 {linkContext.map((context, index) => {
                     return (
                         <Link to={context.url} style={styles.Link} key={index}>
+                            <div className="Crn-Container">
+                                <div className="Link-TL-Crn"/>
+                                <div className="Link-TR-Crn"/>
+                                <div className="Link-BL-Crn"/>
+                                <div className="Link-BR-Crn"/>
+                            </div>
+                            
                             <li style={styles.li}>
                                 {context.text}
                             </li>

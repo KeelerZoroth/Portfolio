@@ -3,16 +3,19 @@ function Error() {
 
     const styles = {
         mainDiv:{
+            minHeight: "100vh",
             padding: "1px 8px",
-            textAlign: "center",
-            backgroundColor: "rgb(241 241 241)",
+            background: "radial-gradient(rgb(241, 241, 241) -25%, rgb(100, 100, 100))",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center"
         }
     }
 
 
     return (
         <div style={styles.mainDiv}>    
-            <p>Something wrong happend :[</p>
+            <h1>Hmm... Something wrong happend :[</h1>
         </div>
     )
 }

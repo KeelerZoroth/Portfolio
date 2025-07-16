@@ -6,16 +6,15 @@ function App() {
 
   const styles = {
     main: {
-      margin: "20px 10px 90px 10px",
     },
   };
 
   return (
     <>
       <Header/>
-      <main style={styles.main}>
-        <Outlet />
-      </main>
+        <main style={styles.main}>
+          <Outlet />
+        </main>
       <Footer/>
     </>
   )
