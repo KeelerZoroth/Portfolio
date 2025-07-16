@@ -6,11 +6,11 @@ function About() {
     const styles = {
         mainDiv:{
             position: "relative",
+            minHeight: "75vh",
             margin: "0px",
             padding: "1px 8px",
             textAlign: "center",
             background: `linear-gradient(rgba(241, 241, 241, 0) 0%, rgba(241, 241, 241, 1) 100%), url(${aboutBackgroundImage}) center`,
-            
         },
         subDiv:{
             display: "inline-block",
@@ -69,9 +69,10 @@ function About() {
                             Experienced front-end web developement, specializing in building interactive and responsive user interfaces.
                             Proficient in HTML, CSS, JavaScript, and modern frameworks such as React and TypeScript. 
                             Demonstrated ability to contribute to collaborative projects with strong problem-solving skills and attention to code quality, including comprehensive use of Bootstrap.
-                            Adept at leveraging version control systems like Git and working effectively with development tools such as Visual Studio Code and Postman.\
+                            Adept at leveraging version control systems like Git and working effectively with development tools such as Visual Studio Code and Postman.
                             Successfully led and executed key roles on project teams, including full page structuring and responsive design integration.
                             Recognized for clear code documentation and implementation in web development projects.
+                           {/* eslint-disable-next-line react/no-unescaped-entities */}
                             Completed extensive web development training through SMU's Full Stack Web Development Boot Camp and supplemental coursework in JavaScript programming.
                         </p>
                     </div>

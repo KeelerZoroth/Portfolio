@@ -3,6 +3,7 @@ import GroupCalenderImage from "../assets/images/GroupCalenderImage.png"
 import PartyPlannerImage from "../assets/images/Party-Planner-Landing-Page.png";
 import READMEGeneratorImage from "../assets/images/Screenshot 2024-11-04 155047.png";
 import SnippetImage from "../assets/images/Screenshot 2025-02-23 204013.png"
+import TicTacToeImage from "../assets/images/Screenshot 2025-07-10 023202.png"
 
 import portfolioBackgroundImage from "../assets/images/portfolio_background.jpg";
 
@@ -10,6 +11,7 @@ function Portfolio() {
 
     const styles = {
         mainDiv:{
+            minHeight: "75vh",
             padding: "1px 8px",
             backgroundColor: "rgb(130 183 220)",
             background: `linear-gradient(rgba(130, 183, 220, 0.65), rgb(130, 183, 220, 0.65)), url(${portfolioBackgroundImage})`,
@@ -28,6 +30,11 @@ function Portfolio() {
     }
 
     const projectLists = [
+        {
+            title: "Tic-Tac-Toe",
+            image: TicTacToeImage,
+            url: "https://github.com/KeelerZoroth/Tic-Tac-Toe-Site",
+        },
         {
             title: "Snippet",
             image: SnippetImage,

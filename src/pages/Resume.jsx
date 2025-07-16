@@ -4,17 +4,37 @@ function Resume() {
 
     const styles = {
         mainDiv:{
-            minHeight: "65vh",
-            padding: "10px 8px",
+            minHeight: "75vh",
+            padding: "10px 20px",
             textAlign: "left",
-            backgroundColor: "rgb(241, 241, 241)"
+            // backgroundColor: "rgb(41, 41, 41)",
+            background: `
+                linear-gradient(135deg,
+                    rgba(230, 120, 120, 0.25) 0% 15%,
+                    rgba(41, 41, 41, 0.1) 85% 100%
+                ),
+                linear-gradient(105deg,
+                    rgba(41, 41, 41, 0.1) -5% 5%,
+                    rgba(130, 0, 0, 0.55) 5% 15%,
+                    rgba(41, 41, 41, 0.1) 15% 25%,
+                    rgba(130, 0, 0, 0.45) 25% 35%,
+                    rgba(41, 41, 41, 0.1) 35% 45%,
+                    rgba(130, 0, 0, 0.35) 45% 55%,
+                    rgba(41, 41, 41, 0.1) 55% 65%,
+                    rgba(130, 0, 0, 0.25) 65% 75%,
+                    rgba(41, 41, 41, 0.1) 75% 85%,
+                    rgba(130, 0, 0, 0.15) 85% 95%,
+                    rgba(41, 41, 41, 0.1) 95% 105%
+                ),
+                rgb(41, 41, 41)`,
+            color: "white",
         },
         downloadLinkDiv:{
             width: "100px",
             margin: "8px 5px",
             marginLeft: "auto",
-            backgroundColor: "rgb(180, 180, 180)",
-            border: "2px solid rgba(0, 0, 0, 0.3)",
+            backgroundColor: "rgb(100, 100, 100)",
+            border: "2px solid rgba(0, 0, 0, 0.65)",
             borderRadius: "5px"
         },
         downloadLink:{

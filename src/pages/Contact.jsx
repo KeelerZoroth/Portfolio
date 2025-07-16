@@ -3,13 +3,13 @@ function Contact() {
 
     const styles = {
         mainDiv:{
+            minHeight: "75vh",
             padding: "50px 8px",
             marginBottom: "auto",
             textAlign: "center",
             backgroundColor: "rgb(28, 28, 28)",
             color: "whitesmoke",
             fontFamily: "sans-serif",
-            height: "60vh",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
