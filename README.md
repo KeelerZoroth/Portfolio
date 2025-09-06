@@ -14,7 +14,7 @@
 
   Install npm packages: ```npm i```
 ## Usage
-  Here is the deployed site: https://guileless-selkie-12213b.netlify.app/  
+  Here is the deployed site: [https://guileless-selkie-12213b.netlify.app/](https://isaiah-hansen-portfolio.netlify.app/)
 
   ![Screenshot](./public/Screenshot%202024-11-04%20162937.png)
 ## License
