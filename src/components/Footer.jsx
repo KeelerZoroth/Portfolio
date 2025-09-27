@@ -4,8 +4,9 @@ function Footer() {
 
     const styles = {
         footer: {
+            // position: "fixed",
+            bottom: "0",
             width: "100%",
-            height: "10vh",
             background: "linear-gradient(rgb(128, 128, 128) 0%, rgb(78, 78, 78) 100%)",
             padding: "10px 0px",
             textAlign: "center"

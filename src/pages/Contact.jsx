@@ -3,7 +3,7 @@ function Contact() {
 
     const styles = {
         mainDiv:{
-            minHeight: "75vh",
+            height: "100%",
             padding: "0px 8px",
             marginBottom: "auto",
             textAlign: "center",
