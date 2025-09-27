@@ -4,7 +4,8 @@ function Resume() {
 
     const styles = {
         mainDiv:{
-            minHeight: "75vh",
+            height: "100%",
+            // marginBottom: "10vh",
             padding: "10px 20px",
             textAlign: "left",
             // backgroundColor: "rgb(41, 41, 41)",
@@ -52,7 +53,7 @@ function Resume() {
     return (
         <div style={styles.mainDiv} className="resume-main-div">    
             <div style={styles.downloadLinkDiv}>
-                <a style={styles.downloadLink} href="/Public Resume.docx" download>
+                <a style={styles.downloadLink} href="/Public Resume.pdf" download>
                         <div style={styles.downloadLinkInnerDiv}>
                             Download Resume
                         </div>

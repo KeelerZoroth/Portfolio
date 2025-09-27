@@ -6,7 +6,7 @@ function About() {
     const styles = {
         mainDiv:{
             position: "relative",
-            minHeight: "75vh",
+            height: "100%",
             margin: "0px",
             padding: "1px 8px",
             textAlign: "center",

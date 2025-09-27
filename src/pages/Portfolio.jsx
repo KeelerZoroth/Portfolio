@@ -11,7 +11,7 @@ function Portfolio() {
 
     const styles = {
         mainDiv:{
-            minHeight: "75vh",
+            height: "100%",
             padding: "2px 8px",
             backgroundColor: "rgb(130 183 220)",
             background: `linear-gradient(rgba(130, 183, 220, 0.65), rgb(130, 183, 220, 0.65)), url(${portfolioBackgroundImage})`,
